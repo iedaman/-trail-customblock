@@ -17,8 +17,8 @@ namespace animations {
     //% block="blink|x $x |y $y |every $interval |ms"
     //% x.min=0 x.max=4 y.min=0 y.max=4 interval.min=0 x.defl=2 y.defl=2 interval.defl=100
     export function blink(x:number, y:number, interval:number): void {
-        let sprite = game.createSprite(x,y)
-        sprite.setBlink(interval)
-        sprite.blink()
+        led.plot(x, y)
+        basic.pause(interval)
+        led.unplot(x, y)
     }
 }
