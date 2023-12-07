@@ -9,7 +9,7 @@
 //% weight=100 color=#0fbc11 icon=""
 namespace animations {
     /**
-     * Blink an LED at a particular interval
+     * Blink an LED at a particular interval (ms)
      * @param x horizontal led coordinate
      * @param y vartical led coordinate
      * @param interval time in milli seconds between blinks
