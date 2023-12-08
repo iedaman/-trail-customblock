@@ -18,6 +18,7 @@ namespace animations {
     //% x.min=0 x.max=4 y.min=0 y.max=4 interval.min=0 x.defl=2 y.defl=2 interval.defl=100
     //% interval.shadow=timePicker
     export function blink(x:number, y:number, interval:number): void {
+        basic.pause(interval)
         led.plot(x, y)
         basic.pause(interval)
         led.unplot(x, y)
