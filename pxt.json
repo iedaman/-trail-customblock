@@ -7,9 +7,9 @@
     },
     "files": [
         "main.blocks",
-        "main.ts",
         "README.md",
-        "custom.ts"
+        "custom.ts",
+        "main.ts"
     ],
     "testFiles": [],
     "targetVersions": {
